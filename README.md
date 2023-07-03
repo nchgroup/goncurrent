@@ -11,22 +11,21 @@ import (
 	"fmt"
 	"time"
 
-    "github.com/nchgroup/goncurrent"
+	"github.com/nchgroup/goncurrent"
 )
 
 func main() {
-	// obviously is the number of threads you want to use
 	threads := 5
 
-    // create a custom list with whatever type you want
+	// create a custom list with whatever type you want
 	list := []string{"hello", "world", "from", "go", "goroutines"}
 
-	goncurrent.Execute(threads, list, func(item interface{}) { // dont edit this line
+	goncurrent.Execute(threads, list, func(item interface{}) { // don't edit this line
 
-        // do something with item
+		// you can write whatever
 		fmt.Println(item)
 		time.Sleep(1 * time.Second)
-        // finish something
+		// end whatever
 
 	})
 }
