@@ -38,4 +38,4 @@ func main() {
 # Authors
 
 * Vay3t - https://twitter.com/vay3t - https://gitlab.com/vay3t
-* Gato - https://twitter.com/_g4toto_ - https://www.linkedin.com/in/daniel-mena-342a4715a/
+* Gato - [https://twitter.com/_g4toto_](https://twitter.com/_g4toto_) - https://www.linkedin.com/in/daniel-mena-342a4715a/
