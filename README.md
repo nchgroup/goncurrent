@@ -2,7 +2,7 @@
 
 Golang concurrency library for noobs like a me (Vay3t) [WIP]
 
-# How Works
+# How works
 
 This library is a wrapper of the goroutines, it's very simple to use, you only need to pass the number of threads, a list and a function, the library will do the rest.
 
