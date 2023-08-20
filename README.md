@@ -1,6 +1,6 @@
 # Goncurrent
 
-Golang concurrency library for noobs like a me (Vay3t) [WIP]
+Golang concurrency library for noobs like a me (Vay3t)
 
 # How works
 
