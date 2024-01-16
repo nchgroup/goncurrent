@@ -66,7 +66,7 @@ func TestThreadPoolShutdown(t *testing.T) {
 
 // TestInvalidThreadCount checks the error handling for invalid thread counts.
 func TestInvalidThreadCount(t *testing.T) {
-	_, err := Execute(0, []func(){func() {}})
+	err := Execute(0, []func(){func() {}})
 	if err == nil {
 		t.Error("expected error for invalid thread count, got nil")
 	}
